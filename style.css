@@ -1,5 +1,4 @@
 * {
-    border: 1px solid red;
     margin: 0;
     padding: 0;
 }
@@ -48,7 +47,11 @@ ul li a {
     justify-content: space-between;
     align-items: center;
     padding: 12px 72px;
-    margin-bottom: 62px;  
+    margin-bottom: 62px;
+}
+
+.main-text {
+    padding-right: 24px;
 }
 
 .header-image img {
@@ -61,7 +64,7 @@ ul li a {
     font-weight: 900;
 }
 
-.second-text {
+.second-text { 
     font-size: 18px #e5e7eb;
 }
 
@@ -143,10 +146,6 @@ main {
     color: #f9faf8;
 }
 
-.main-footer {
-    
-}
-
 .footer-text {
     font-weight: 900;
     font-size: 18px;
@@ -158,4 +157,12 @@ main {
     border: 2px solid #f9faf8;
     padding: 6px 24px;
     border-radius: 4px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding-top: 36px;
+    padding-bottom: 36px;
 }

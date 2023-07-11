@@ -8,9 +8,10 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    
 }
 
-.header-top {
+.top-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -18,11 +19,12 @@ body {
 }
 
 .header {
+    color: white;
     background-color: #1f2937;
 }
 
 .logo {
-    color: white;
+    font-size: 18px;
     font-weight: 900;
 }
 
@@ -40,3 +42,30 @@ ul li a {
     text-decoration: none;
 }
 
+.bottom-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+
+img {
+    max-width: 250px;
+    max-height: 200px;
+}
+
+.first-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.second-text {
+    font-size: 18px;
+}
+
+.signup {
+    background-color: #3882f6;
+    color: white;
+    padding: 6px 24px;
+    border-radius: 12px;
+}

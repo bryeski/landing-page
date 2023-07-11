@@ -20,12 +20,12 @@ body {
 }
 
 .header {
-    color: white;
+    color: #f9faf8;
     background-color: #1f2937;
 }
 
 .logo {
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 900;
 }
 
@@ -62,7 +62,7 @@ ul li a {
 }
 
 .second-text {
-    font-size: 18px;
+    font-size: 18px #e5e7eb;
 }
 
 .top-btn {
@@ -79,7 +79,6 @@ ul li a {
     justify-content: space-around;
     align-items: center;
     margin: 52px;
-    gap: 16px;
 }
 
 .photo img {
@@ -104,9 +103,31 @@ ul li a {
 .text {
     max-width: 120px;
     margin-top: 6px;
+    color: #1f2937;
 }
 
 main {
     padding: 12px 72px;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #e5e7eb;
+    padding: 52px 128px 48px;
+    color: #1f2937;
+}
+
+.first-line {
+    text-align: justify;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.second-line {
+    margin-top: 12px;
+    text-align: right;
+    font-weight: bold;
+}

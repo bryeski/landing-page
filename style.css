@@ -16,6 +16,7 @@ body {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 48px;
+    padding: 12px 72px; 
 }
 
 .header {
@@ -44,13 +45,16 @@ ul li a {
 
 .bottom-header {
     display: flex;
-    justify-content: center;
-    align-items: center;  
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 72px;
+    margin-bottom: 62px;  
+    flex-grow: 1;
 }
 
 
 img {
-    max-width: 250px;
+    max-width: auto;
     max-height: 200px;
 }
 

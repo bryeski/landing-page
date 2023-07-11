@@ -49,13 +49,11 @@ ul li a {
     align-items: center;
     padding: 12px 72px;
     margin-bottom: 62px;  
-    flex-grow: 1;
 }
 
-
-img {
+.header-image img {
     max-width: auto;
-    max-height: 200px;
+    max-height: 190px;
 }
 
 .first-text {
@@ -67,9 +65,48 @@ img {
     font-size: 18px;
 }
 
-.signup {
+.top-btn {
+    margin-top: 6px;
     background-color: #3882f6;
     color: white;
     padding: 6px 24px;
-    border-radius: 12px;
+    border-radius: 6px;
+    font-weight: 600;
 }
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 52px;
+    gap: 16px;
+}
+
+.photo img {
+    border: 3px solid #3882f6;
+    border-radius: 6px;
+    height: 120px;
+    width: 120px;
+}
+
+.main-header {
+    text-align: center;
+    font-weight: 900;
+    font-size: 36px;
+    color: #1f2937;
+    margin: 36px;
+}
+
+.photo {
+    text-align: center;
+}
+
+.text {
+    max-width: 120px;
+    margin-top: 6px;
+}
+
+main {
+    padding: 12px 72px;
+}
+
